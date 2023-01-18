@@ -1,0 +1,11 @@
+.forDevelopers {
+    background-color: #193844;
+}
+
+.forDevelopers .img {
+    height: 385px;
+    width: 443px;
+    background-image: url(../assets/images/illustrations/code2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

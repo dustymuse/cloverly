@@ -1,0 +1,40 @@
+.howItWorks {
+    background-color: #F2F4E8;
+}
+
+.howItWorks .btn {
+    font-size: 14px;
+}
+
+.howItWorks .textContent p {
+    font-size: 21px;
+    line-height: 28px;
+}
+
+.howItWorks li p {
+    color: #5C7782;
+}
+
+.howItWorks .btn {
+    height: 30px;
+    width: 154px;
+    padding-top: 4px;
+}
+
+.howItWorks aside li:nth-of-type(1) {
+    background-image: url(../assets/images/signes/matching-the-offset.svg);
+    background-repeat: no-repeat;
+    padding-top: 116px;
+}
+
+.howItWorks aside li:nth-of-type(2) {
+    background-image: url(../assets/images/signes/transaction-transparency.svg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.howItWorks aside li:nth-of-type(3) {
+    background-image: url(../assets/images/signes/verified-sources.svg);
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}

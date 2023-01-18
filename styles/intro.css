@@ -1,0 +1,95 @@
+.partners {
+    height: 100px;
+    max-width: 1130px;
+    margin: 0 auto;
+    background-color: #FBFCF5;
+}
+
+.intro {
+    background-color: #1FBD8A;
+}
+
+.intro .preSectionCaption {
+    font-size: 15px;
+    border-radius: 50px;
+    text-align: center;
+    height: 33px;
+    width: 200px;
+    background-color: #FFFFFF44;
+    color: #FFFFFF;
+    padding-top: 6px;
+}
+
+/* images =================================================================================================*/
+
+.partners .partnerLogo:nth-child(1) {
+    height: 35px;
+    width: 132px;
+    background-image: url(../assets/images/partners/looker.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partners .partnerLogo:nth-child(2) {
+    height: 92px;
+    width: 92px;
+    background-image: url(../assets/images/partners/sustainability.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partners .partnerLogo:nth-child(3) {
+    height: 55px;
+    width: 79px;
+    background-image: url(../assets/images/partners/techcrunch.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partners .partnerLogo:nth-child(4) {
+    height: 47px;
+    width: 160px;
+    background-image: url(../assets/images/partners/shopify.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.partners .partnerLogo:nth-child(5) {
+    height: 45px;
+    width: 200px;
+    background-image: url(../assets/images/partners/bigcommerce.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro .img:nth-child(1) {
+    height: 616px;
+    width: 377px;
+    background-image: url(../assets/images/illustrations/smartphone.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro .img:nth-child(2) {
+    height: 322px;
+    width: 323px;
+    background-image: url(../assets/images/illustrations/mapspot.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro .img:nth-child(3) {
+    height: 335px;
+    width: 935px;
+    background-image: url(../assets/images/illustrations/code1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.intro .img:nth-child(4) {
+    height: 540px;
+    width: 668px;
+    background-image: url(../assets/images/illustrations/webpage.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

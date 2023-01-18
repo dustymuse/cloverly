@@ -1,93 +1,31 @@
 @import url(normalize.css);
-
-/*reset some properties=======================================================================*/
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-a,
-a:visited {
-    color: inherit;
-    text-decoration: none;
-}
-
-li {
-    list-style: none;
-}
-
-h1,
-h2,
-h3 {
-    font-size: inherit;
-    font-weight: inherit;
-}
+@import url(reset.css);
+@import url(header.css);
+@import url(intro.css);
+@import url(cloverlyapi.css);
+@import url(howitworks.css);
+@import url(usecases.css);
+@import url(fordevs.css);
+@import url(partnerspotlight.css);
+@import url(trycloverly.css);
+@import url(cloverlyblog.css);
+@import url(footer.css);
 
 /*section sizes & shapes=========================================================================*/
 
-header {
-    height: 71px;
-    position: relative;
-}
-
 .wrapper {
-    width: 1090px;
+    max-width: 1090px;
     margin: 0 auto;
 }
 
 .textContent {
-    width: 535px;
-}
-
-.partners {
-    height: 100px;
-    width: 1130px;
-    margin: 0 auto;
-}
-
-.tryCloverly .sign {
-    width: 100%;
-    border-radius: 30px;
-}
-
-footer .separator {
-    height: 1px;
+    max-width: 535px;
 }
 
 /*section backgrounds=======================================================================================*/
 
-body,
-.partners {
+body {
     background-color: #FBFCF5;
-}
-
-header,
-.intro {
-    background-color: #1FBD8A;
-}
-
-header {
-    box-shadow: 0px 6px 9px rgba(19, 40, 29, 0.1);
-}
-
-.howItWorks {
-    background-color: #F2F4E8;
-}
-
-.forDevelopers,
-.tryCloverly .sign,
-footer {
-    background-color: #193844;
-}
-
-.tryCloverly .sign {
-    background-image: linear-gradient(180deg, #FFFFFF00 0%, #F2F4E8 217.84%);
-}
-
-footer .separator {
-    background-color: #275668;
 }
 
 /* fonts */
@@ -99,11 +37,8 @@ body {
     color: #013A51;
 }
 
-header,
-.intro,
-.forDevelopers,
-.tryCloverly,
-footer {
+.alt-color,
+.alt2-color {
     color: #FFFFFF
 }
 
@@ -111,24 +46,10 @@ footer {
     color: #00CA90;
 }
 
-header,
-.lowerFooter,
-.intro .preSectionCaption,
 main li p,
 .btn,
 a {
     font-size: 15px;
-}
-
-footer,
-.howItWorks .btn,
-.partnerSpotlight .btn,
-.signature::first-line {
-    font-size: 14px;
-}
-
-.signature {
-    font-size: 13px;
 }
 
 h1 {
@@ -146,289 +67,44 @@ main ul h3 {
     line-height: 32px;
 }
 
-.useCases .textContent h3 {
-    font-size: 32px;
-    line-height: 43px;
-}
-
-.partnerSpotlight p {
-    font-size: 21px;
-    color: #013A51A0
-}
-
-.partnerSpotlight p .sectionStart {
-    color: #013A51;
-}
-
-.howItWorks .textContent p {
-    font-size: 21px;
-    line-height: 28px;
-}
-
-.howItWorks li p,
-.useCases li p {
-    color: #5C7782;
-}
-
-.partnerSpotlight blockquote {
-    font-size: 25px;
-    line-height: 34px;
-    font-style: normal;
-    display: block;
-}
-
-.tryCloverly .sign h2 {
-    font-size: 36px;
-}
-
-.tryCloverly .sign {
-    font-size: 21px;
-}
-
 /*buttons=======================================================================================*/
 
-.btn,
-.intro .preSectionCaption {
+.btn {
     border-radius: 50px;
     text-align: center;
-}
-
-header .btn,
-.intro a:first-of-type .btn,
-.forDevelopers a:last-of-type .btn {
-    background-color: #FFFFFF;
-    color: #013A51;
-}
-
-.intro a:last-of-type .btn,
-.cloverlyAPI a:last-of-type .btn,
-.useCases .btn {
-    background-color: #192F44;
-    color: #FFFFFF;
-}
-
-.forDevelopers a:first-of-type .btn,
-.cloverlyAPI a:first-of-type .btn,
-.tryCloverly .btn,
-footer .btn {
-    background-color: #00CA90;
-    color: #FFFFFF;
-}
-
-.howItWorks .btn,
-.partnerSpotlight .btn,
-.cloverlyBlog .btn {
     border: 2px solid #00CA90;
-}
-
-.btn {
+    height: 50px;
+    width: 255px;
+    vertical-align: middle;
     height: 50px;
     width: 255px;
     padding-top: 12px;
+    display: block;
 }
 
-.intro .preSectionCaption {
-    height: 33px;
-    width: 200px;
-    background-color: #FFFFFF44;
+.alt-color .btn:nth-of-type(odd),
+.alt2-color .btn:nth-of-type(even) {
+    background-color: #FFFFFF;
+    color: #013A51;
+    border: 0;
+}
+
+.alt-color .btn:nth-of-type(even),
+.btns .btn {
+    background-color: #192F44;
     color: #FFFFFF;
-    padding-top: 6px;
+    border: 0;
 }
 
-header .btn {
-    height: 36px;
-    width: 158px;
-    padding-top: 6px;
-}
-
-footer .btn {
-    height: 19px;
-    width: 167px;
-    padding-top: 0;
-    line-height: 16px;
-}
-
-.howItWorks .btn {
-    height: 30px;
-    width: 154px;
-    padding-top: 4px;
-}
-
-.partnerSpotlight .btn {
-    width: 350px;
-}
-
-/* images =================================================================================================*/
-
-.partners .partnerLogo:nth-child(1) {
-    height: 35px;
-    width: 132px;
-    background-image: url(../assets/images/partners/looker.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.partners .partnerLogo:nth-child(2) {
-    height: 92px;
-    width: 92px;
-    background-image: url(../assets/images/partners/sustainability.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.partners .partnerLogo:nth-child(3) {
-    height: 55px;
-    width: 79px;
-    background-image: url(../assets/images/partners/techcrunch.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.partners .partnerLogo:nth-child(4) {
-    height: 47px;
-    width: 160px;
-    background-image: url(../assets/images/partners/shopify.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.partners .partnerLogo:nth-child(5) {
-    height: 45px;
-    width: 200px;
-    background-image: url(../assets/images/partners/bigcommerce.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.intro .img:nth-child(1) {
-    height: 616px;
-    width: 377px;
-    background-image: url(../assets/images/illustrations/smartphone.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.intro .img:nth-child(2) {
-    height: 322px;
-    width: 323px;
-    background-image: url(../assets/images/illustrations/mapspot.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.intro .img:nth-child(3) {
-    height: 335px;
-    width: 935px;
-    background-image: url(../assets/images/illustrations/code1.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.intro .img:nth-child(4) {
-    height: 540px;
-    width: 668px;
-    background-image: url(../assets/images/illustrations/webpage.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.forDevelopers .img {
-    height: 385px;
-    width: 443px;
-    background-image: url(../assets/images/illustrations/code2.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.partnerSpotlight blockquote {
-    background-image: url(../assets/images/signes/quotes.svg);
-    background-repeat: no-repeat;
-    padding-top: 62px;
-}
-
-.howItWorks aside li:nth-of-type(1) {
-    background-image: url(../assets/images/signes/matching-the-offset.svg);
-    background-repeat: no-repeat;
-    padding-top: 116px;
-}
-
-.howItWorks aside li:nth-of-type(2) {
-    background-image: url(../assets/images/signes/transaction-transparency.svg);
-    background-repeat: no-repeat;
-    padding-top: 100px;
-}
-
-.howItWorks aside li:nth-of-type(3) {
-    background-image: url(../assets/images/signes/verified-sources.svg);
-    background-repeat: no-repeat;
-    padding-top: 100px;
-}
-
-.useCases li:nth-of-type(1) {
-    background-image: url(../assets/images/signes/ecommerce.svg);
-    background-repeat: no-repeat;
-    padding-left: 200px;
-}
-
-.useCases li:nth-of-type(2) {
-    background-image: url(../assets/images/signes/rideshare.svg);
-    background-repeat: no-repeat;
-    padding-left: 200px;
-}
-
-.useCases li:nth-of-type(3) {
-    background-image: url(../assets/images/signes/flights.svg);
-    background-repeat: no-repeat;
-    padding-left: 200px;
-}
-
-.useCases li:nth-of-type(4) {
-    background-image: url(../assets/images/signes/enterprise-resource-planning.svg);
-    background-repeat: no-repeat;
-    padding-left: 200px;
-}
-
-.useCases li:nth-of-type(5) {
-    background-image: url(../assets/images/signes/energy.svg);
-    background-repeat: no-repeat;
-    padding-left: 200px;
-}
-
-.useCases li:nth-of-type(6) {
-    background-image: url(../assets/images/signes/supply-chain.svg);
-    background-repeat: no-repeat;
-    padding-left: 200px;
-}
-
-.useCases li:nth-of-type(7) {
-    background-image: url(../assets/images/signes/fintech.svg);
-    background-repeat: no-repeat;
-    padding-left: 200px;
-}
-
-.useCases li:nth-of-type(8) {
-    background-image: url(../assets/images/signes/fleet.svg);
-    background-repeat: no-repeat;
-    padding-left: 200px;
-}
-
-.partnerSpotlight .partnerLogo {
-    background-image: url(../assets/images/partners/google-looker.svg);
-    background-repeat: no-repeat;
-    height: 25px;
-    width: 151px;
+.alt2-color .btn:nth-of-type(odd),
+.btns .btn:nth-last-of-type(even) {
+    background-color: #00CA90;
+    color: #FFFFFF;
 }
 
 .logo {
     height: 30px;
     width: 110px;
     background-repeat: no-repeat;
-}
-
-header .logo {
-    background-image: url(../assets/images/logo/dark-o-logo.svg);
-}
-
-footer .logo {
-    background-image: url(../assets/images/logo/light-o-logo.svg);
+    background-size: cover;
 }

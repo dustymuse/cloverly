@@ -1,0 +1,24 @@
+footer .separator {
+    height: 1px;
+    background-color: #275668;
+}
+
+footer {
+    background-color: #193844;
+    font-size: 14px;
+}
+
+.lowerFooter {
+    font-size: 15px;
+}
+
+footer .btn {
+    height: 19px;
+    width: 167px;
+    padding-top: 0;
+    line-height: 16px;
+}
+
+footer .logo {
+    background-image: url(../assets/images/logo/light-o-logo.svg);
+}

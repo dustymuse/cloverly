@@ -1,0 +1,44 @@
+.partnerSpotlight .btn {
+    font-size: 14px;
+}
+
+.partnerSpotlight .signature::first-line {
+    font-size: 14px;
+}
+
+.partnerSpotlight .signature {
+    font-size: 13px;
+}
+
+.partnerSpotlight p {
+    font-size: 21px;
+    color: #013A51A0
+}
+
+.partnerSpotlight p .sectionStart {
+    color: #013A51;
+}
+
+.partnerSpotlight blockquote {
+    font-size: 25px;
+    line-height: 34px;
+    font-style: normal;
+    display: block;
+}
+
+.partnerSpotlight .btn {
+    width: 350px;
+}
+
+.partnerSpotlight blockquote {
+    background-image: url(../assets/images/signes/quotes.svg);
+    background-repeat: no-repeat;
+    padding-top: 62px;
+}
+
+.partnerSpotlight .partnerLogo {
+    background-image: url(../assets/images/partners/google-looker.svg);
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 151px;
+}

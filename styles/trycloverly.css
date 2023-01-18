@@ -1,0 +1,11 @@
+.tryCloverly .sign {
+    width: 100%;
+    border-radius: 30px;
+    background-color: #193844;
+    background-image: linear-gradient(180deg, #FFFFFF00 0%, #F2F4E8 217.84%);
+    font-size: 21px;
+}
+
+.tryCloverly .sign h2 {
+    font-size: 36px;
+}

@@ -1,0 +1,17 @@
+header {
+    height: 71px;
+    position: relative;
+    background-color: #1FBD8A;
+    box-shadow: 0px 6px 9px rgba(19, 40, 29, 0.1);
+    font-size: 15px;
+}
+
+header .btn {
+    height: 36px;
+    width: 158px;
+    padding-top: 6px;
+}
+
+header .logo {
+    background-image: url(../assets/images/logo/dark-o-logo.svg);
+}
