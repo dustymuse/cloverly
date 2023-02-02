@@ -22,6 +22,10 @@
     max-width: 535px;
 }
 
+.flex-container {
+    display: flex;
+}
+
 /*section backgrounds=======================================================================================*/
 
 body {
@@ -73,13 +77,10 @@ main ul h3 {
     border-radius: 50px;
     text-align: center;
     border: 2px solid #00CA90;
-    height: 50px;
     width: 255px;
-    vertical-align: middle;
-    height: 50px;
-    width: 255px;
-    padding-top: 12px;
+    padding: 15px 0 19px;
     display: block;
+    line-height: 16px;
 }
 
 .alt-color .btn:nth-of-type(odd),
@@ -97,9 +98,10 @@ main ul h3 {
 }
 
 .alt2-color .btn:nth-of-type(odd),
-.btns .btn:nth-last-of-type(even) {
+.alt-color:not .btns .btn:nth-last-of-type(even) {
     background-color: #00CA90;
     color: #FFFFFF;
+    border: 0;
 }
 
 .logo {

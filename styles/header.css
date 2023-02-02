@@ -1,5 +1,4 @@
 header {
-    height: 71px;
     position: relative;
     background-color: #1FBD8A;
     box-shadow: 0px 6px 9px rgba(19, 40, 29, 0.1);
@@ -7,11 +6,34 @@ header {
 }
 
 header .btn {
-    height: 36px;
     width: 158px;
-    padding-top: 6px;
 }
 
 header .logo {
-    background-image: url(../assets/images/logo/dark-o-logo.svg);
+    margin: 20px 0;
+}
+
+header .btn {
+    background-color: #F4FBF9;
+    color: #24475B;
+    padding: 10px 0;
+}
+
+header .flex-container {
+    align-items: center;
+}
+
+header .spacer {
+    flex-grow: 1;
+}
+
+header .nav li,
+header .login,
+header .btn {
+    margin-left: 48px;
+}
+
+header ul {
+    flex-wrap: wrap;
+    margin: 10px 0;
 }
