@@ -6,9 +6,6 @@
     padding: 0 20px;
 }
 
-.textContent {
-    max-width: 535px;
-}
 
 .flex-container {
     display: flex;
@@ -94,7 +91,7 @@ main ul h3 {
 }
 
 .alt2-color .btn:nth-of-type(odd),
-.alt-color:not .btns .btn:nth-last-of-type(even) {
+.std-color .btns .btn:nth-last-of-type(even) {
     background-color: #00CA90;
     color: #FFFFFF;
     border: 0;
@@ -103,5 +100,6 @@ main ul h3 {
 .btns {
     display: flex;
     flex-wrap: wrap;
+    max-width: 522px;
     justify-content: space-between;
 }

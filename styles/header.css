@@ -10,7 +10,7 @@ header .btn {
 }
 
 header .logo {
-    margin: 20px 0;
+    margin: 20px 48px 20px 0;
 }
 
 header .btn {
@@ -27,17 +27,42 @@ header .spacer {
     flex-grow: 1;
 }
 
-header .nav li,
-header .login,
-header .btn {
-    margin-left: 48px;
+header .nav {
+    width: 502px;
 }
 
 header ul {
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .login,
+header .btn {
+    margin: 10px 0 10px 48px;
+}
+
+header .nav li {
     margin: 10px 0;
 }
 
-.nav {
-    flex-shrink: 1;
+@media (max-width:950px) {
+    header .nav {
+        order: 2;
+    }
+
+    header .flex-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    header .flex-container {
+        flex-direction: column;
+    }
+
+    header .nav li,
+    header .login,
+    header .btn,
+    header .logo {
+        margin: 10px 0;
+    }
 }
