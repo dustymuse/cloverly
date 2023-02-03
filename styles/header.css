@@ -37,3 +37,7 @@ header ul {
     flex-wrap: wrap;
     margin: 10px 0;
 }
+
+.nav {
+    flex-shrink: 1;
+}

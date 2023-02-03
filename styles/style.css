@@ -1,21 +1,9 @@
-@import url(normalize.css);
-@import url(reset.css);
-@import url(header.css);
-@import url(intro.css);
-@import url(cloverlyapi.css);
-@import url(howitworks.css);
-@import url(usecases.css);
-@import url(fordevs.css);
-@import url(partnerspotlight.css);
-@import url(trycloverly.css);
-@import url(cloverlyblog.css);
-@import url(footer.css);
-
 /*section sizes & shapes=========================================================================*/
 
 .wrapper {
-    max-width: 1090px;
+    max-width: 1130px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .textContent {
@@ -44,6 +32,14 @@ body {
 .alt-color,
 .alt2-color {
     color: #FFFFFF
+}
+
+.alt-color {
+    background-color: #1FBD8A;
+}
+
+.alt2-color {
+    background-color: #0A2540;
 }
 
 .preSectionCaption {
@@ -104,9 +100,8 @@ main ul h3 {
     border: 0;
 }
 
-.logo {
-    height: 30px;
-    width: 110px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

@@ -23,4 +23,6 @@ h2,
 h3 {
     font-size: inherit;
     font-weight: inherit;
+    margin: 0;
+    padding: 0;
 }
