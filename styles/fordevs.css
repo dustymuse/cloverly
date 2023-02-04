@@ -1,5 +1,21 @@
 .forDevelopers {
-    background-color: #193844;
+    padding: 150px 0;
+}
+
+.forDevelopers .preSectionCaption {
+    margin-bottom: 9px;
+}
+
+.forDevelopers h2 {
+    margin-bottom: 12px;
+}
+
+.forDevelopers .textContent p {
+    margin-bottom: 12px;
+}
+
+.forDevelopers .textContent {
+    padding-right: 128px;
 }
 
 .forDevelopers .img {
@@ -8,4 +24,10 @@
     background-image: url(../assets/images/illustrations/code2.svg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 950px) {
+    .forDevelopers .img {
+        display: none;
+    }
 }

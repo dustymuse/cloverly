@@ -87,3 +87,13 @@
     margin: 85px auto 0;
     background-color: #FBFCF5;
 }
+
+@media (max-width: 950px) {
+    .intro-bg {
+        background-image: none;
+    }
+
+    .intro .textContent {
+        width: 100%;
+    }
+}
