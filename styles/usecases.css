@@ -1,10 +1,55 @@
 .useCases .textContent h3 {
     font-size: 32px;
     line-height: 43px;
+    margin-bottom: 13px;
+}
+
+.useCases .textContent h2 {
+    margin-bottom: 11px;
 }
 
 .useCases li p {
     color: #5C7782;
+}
+
+.useCases .textContent {
+    text-align: center;
+    max-width: 905px;
+    margin: 0 auto;
+}
+
+.useCases ul {
+    padding: 70px 0 60px;
+}
+
+.useCases {
+    padding: 150px 0;
+}
+
+.useCases .preSectionCaption {
+    margin-bottom: 10px;
+}
+
+.useCases .flex-container {
+    flex-wrap: wrap;
+}
+
+.useCases li {
+    flex-basis: 50%;
+    padding-right: 112px;
+    min-height: 179px;
+    padding-bottom: 60px;
+}
+
+@media (max-width: 950px) {
+    .useCases li {
+        flex-basis: 100%;
+    }
+}
+
+.useCases .btns {
+    margin: 9px auto 0;
+    justify-content: space-around;
 }
 
 .useCases li:nth-of-type(1) {
