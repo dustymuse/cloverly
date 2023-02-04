@@ -38,3 +38,44 @@
     background-repeat: no-repeat;
     padding-top: 100px;
 }
+
+.howItWorks .textContent {
+    flex-basis: 50%;
+}
+
+.howItWorks aside {
+    flex-basis: 50%;
+}
+
+@media (max-width: 800px) {
+    .howItWorks .flex-container {
+        flex-direction: column;
+    }
+}
+
+.howItWorks {
+    padding: 150px 0;
+}
+
+.howItWorks aside {
+    padding-left: 102px;
+}
+
+.howItWorks .preSectionCapture {
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.howItWorks h2 {
+    font-size: 41px;
+    line-height: 56px;
+    margin-bottom: 9px;
+}
+
+.howItWorks .textContent p {
+    margin-bottom: 20px;
+}
+
+.howItWorks aside li:not(:last-of-type) {
+    margin-bottom: 65px;
+}

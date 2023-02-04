@@ -78,16 +78,12 @@
     margin-bottom: 34px;
 }
 
-.intro .textContent .btn {
-    margin-top: 10px;
-}
-
 .intro .partners {
     justify-content: space-between;
     align-items: center;
     padding: 0 87px 0 37px;
     flex-wrap: wrap;
     max-width: 1130px;
-    margin: 0 auto;
+    margin: 85px auto 0;
     background-color: #FBFCF5;
 }
